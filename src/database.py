@@ -1,4 +1,4 @@
-from face_recognition import calculate_similarity
+from .face_recognition import calculate_similarity
 
 database = {}
 

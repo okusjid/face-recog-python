@@ -1,7 +1,7 @@
 # app/main.py
 from fastapi import FastAPI, UploadFile, File
-from face_recognition import detect_faces, get_face_embedding
-from database import add_face, find_closest_match
+from .face_recognition import detect_faces, get_face_embedding
+from .database import add_face, find_closest_match
 import cv2
 import numpy as np
 
